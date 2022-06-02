@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="lab1.1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/lab1_1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lab1.1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-dbcp2:2.6.0" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-pool2:2.6.1" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jdbc:7.0.19" />
+          <element id="library" level="project" name="Gradle: org.glassfish.web:javax.servlet.jsp.jstl:1.2.1" />
+          <element id="library" level="project" name="Gradle: org.postgresql:postgresql:42.2.10" />
+          <element id="library" level="project" name="Gradle: org.projectlombok:lombok:1.18.24" />
+          <element id="library" level="project" name="Gradle: org.apiguardian:apiguardian-api:1.0.0" />
+          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.1" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.4.2" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.4.2" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.4.2" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.4.2" />
+          <element id="library" level="project" name="Gradle: org.mockito:mockito-core:1.10.19" />
+          <element id="library" level="project" name="Gradle: org.objenesis:objenesis:2.1" />
+          <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.1.1" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="lab1.1.main" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
